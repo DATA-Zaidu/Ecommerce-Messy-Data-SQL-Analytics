@@ -99,10 +99,15 @@ Screenshots of key analyses are available in the `screenshots/` folder.
 
 ecommerce-messy-data-sql-analytics/
 │
+
 ├── data/
+
 ├── sql/
+
 ├── insights/
+
 ├── screenshots/
+
 └── README.md
 
 ---
