@@ -16,8 +16,10 @@ Significant revenue potential is being lost before checkout.
 
 **Recommendation:**
 Optimize checkout flow, reduce payment failures, and improve cart abandonment recovery.
+
 ---
-2️⃣ Weak Early Retention Across Cohorts
+
+**2️⃣ Weak Early Retention Across Cohorts**
 
 Observed Data:
 
@@ -27,16 +29,18 @@ Month-2 retention: ~12%
 
 Month-3 retention: ~12%
 
-Analysis:
+**Analysis:**
 Most users do not return after their first purchase, showing low long-term engagement.
 
-Impact:
+**Impact:**
 Business depends heavily on new user acquisition, increasing customer acquisition costs.
 
-Recommendation:
+**Recommendation:**
 Introduce loyalty programs, post-purchase engagement, and personalized offers.
 
-3️⃣ High Churn Rate After Initial Engagement
+---
+
+**3️⃣ High Churn Rate After Initial Engagement**
 
 Observed Data:
 
@@ -46,16 +50,18 @@ Churned users: 19,693
 
 Churn rate: 66.39%
 
-Analysis:
+**Analysis:**
 Over two-thirds of users become inactive within 30 days.
 
-Impact:
+**Impact:**
 Customer lifetime value is significantly constrained.
 
-Recommendation:
+**Recommendation:**
 Deploy churn prediction models and targeted retention campaigns.
 
-4️⃣ Revenue Impacted by High Cancellation Rate
+---
+
+**4️⃣ Revenue Impacted by High Cancellation Rate**
 
 Observed Data:
 
@@ -65,35 +71,35 @@ Revenue (Delivered): ₹33.4M
 
 Cancellation Rate: 20.19%
 
-Analysis:
+**Analysis:**
 One in five orders is cancelled, resulting in substantial revenue leakage.
 
-Impact:
+**Impact:**
 Operational inefficiencies and payment issues may be driving losses.
 
-Recommendation:
+**Recommendation:**
 Improve order confirmation processes and payment reliability.
 
-5️⃣ Strong Reactivation Opportunity
--
+---
+
+**5️⃣ Strong Reactivation Opportunity**
 
 Observed Data:
 Users returning after 40+ days of inactivity were observed.
 
-Analysis:
--
+**Analysis:**
 A segment of customers can be successfully re-engaged.
 
-Impact:
--
+**Impact:**
 Reactivation is cheaper than acquisition and can boost LTV.
 
-Recommendation:
--
+**Recommendation:**
 Build automated win-back campaigns using churn gap data.
 
-6️⃣ Data Quality Risks in Raw Tables
--
+---
+
+**6️⃣ Data Quality Risks in Raw Tables**
+
 Observed Issues:
 
 Duplicate records
@@ -104,19 +110,19 @@ Invalid values
 
 Test users mixed with production data
 
-Analysis:
--
+**Analysis:**
 Unclean data would have produced misleading KPIs.
 
-Impact:
+**Impact:**
 Decision-making would be unreliable without preprocessing.
 
-Recommendation:
+**Recommendation:**
 Maintain a standardized SQL-based cleaning layer.
-----
 
-7️⃣ Revenue Efficiency is Low Relative to User Base
--
+---
+
+**7️⃣ Revenue Efficiency is Low Relative to User Base**
+
 Observed Data:
 
 Users: 29,662
@@ -125,13 +131,11 @@ Revenue: ₹33.4M
 
 Avg Revenue/User ≈ ₹1,126
 
-Analysis:
--
+**Analysis:**
 Low ARPU suggests under-monetization.
 
-Impact:
--
+**Impact:**
 Growth is volume-driven rather than value-driven.
 
-Recommendation:
+**Recommendation:**
 Upselling, bundling, and targeted promotions.
